@@ -1,4 +1,4 @@
-/* scanner for a toy Pascal-like language */
+/* scanner for a toy JavaScript-like language */
 
 %{
 /* need this for the call to atof() below */
