@@ -59,6 +59,8 @@ IPLString AsString(LiteralType type)
 	return "Undefined";
 }
 
+
+void ASTPrinter::Visit(LiteralExpression* e)
 {
 	os << "{\n" << "LiteralExpression" << '\n';
 	Print(os, *this, "BooleanValue", e->GetBooleanValue());
